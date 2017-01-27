@@ -1,0 +1,145 @@
+* {
+    font-family: 'Droid Arabic Kufi', verdana, sans-serif;
+    line-height: 32px;
+    text-rendering: optimizeLegibility;
+    /*'Changa', sans-serif*/
+    /*font-family: 'Mirza', cursive;*/
+}
+
+
+/*Navigation Bar style*/
+
+#navigationBar {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+}
+
+#navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#navigationBar li {
+    float: right;
+}
+
+#navigationBar li a {
+    display: block;
+    color: #2C82C9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#navigationBar a:hover {
+    color: #fff;
+    background-color: #2C82C9;
+}
+
+
+/*Some text decoration*/
+
+.sometext {
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+
+/*banner style*/
+
+.mother-div {
+    background-color: #2C82C9;
+    height: 400px;
+}
+
+.display-btn-left {
+    color: #ECF0F1;
+    font-size: 60px;
+    height: 400px;
+    line-height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.display-btn-left i {
+    float: left;
+    line-height: inherit;
+}
+
+.display-btn-right {
+    color: #ECF0F1;
+    font-size: 60px;
+    height: 400px;
+    line-height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.display-btn-right i {
+    float: right;
+    line-height: inherit;
+}
+
+.left-content {
+    height: 350px;
+}
+
+.left-content img {
+    padding: 10px;
+    background-color: #ECF0F1;
+    max-height: 95%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.right-content {
+    height: 350px;
+    display: table;
+    overflow: hidden;
+}
+
+.right-content p {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.text-midlle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-cir {
+    color: #ECF0F1;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.slide-cir i {
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+/*carousel indicator*/
+
+.carousel-indicators {
+    margin-bottom: -50px;
+}
+
+.carousel-indicators li {
+    padding: 10px;
+}
